@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'sans-serif', 'Times New Roman', 'Verdana';
+}
+
+p {
+    font-size: 14px;
+}
+
+.header {
+    background-color: #2e2e2e;
+    color: white;
+    padding : 20px 60px 120px 60px
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: end;
+    gap: 40px;
+}
+
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+}
+
+
+button {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    background-color: #d45907;
+    display: block;
+}
+
+.profile {
+    padding: 100px 0px 0px 0px;
+}
+
+.profile h5 {
+    font-size: 25px;
+    font-weight: 1;
+}
+
+.profile h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.profile h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.profile p {
+    padding: 10px 810px 60px 0px;
+}
+
+.main {
+    background-color: #1d1d1d;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 60px 40px 60px;
+}
+
+.contact {
+    padding-right: 550px;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.contact h5 {
+    color: #d45907;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.about h2 {
+    font-size: 40px;
+}
+
+.profesi{
+    font-size: 18px;
+    margin: 20px 0px 15px 0px;
+}
+
+.profesi p {
+    margin-top: 10px;
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0px 20px -20px;
+}
+
+table tr {
+    height: 40px; 
+}
+
+table td {
+    padding: 10px 15px; 
+    vertical-align: middle; 
+}
+
+table td:first-child {
+    width: 100px; 
+}
+
+table td:nth-child(2) {
+    width: 10px;
+    text-align: center;
+}
+
+table td:last-child {
+    width: auto; 
+}
+
